@@ -32,3 +32,5 @@ const DICTIONARY = {
 Dictionary mode also allows the use of overlays over the image, as set by the other variables in the same file.
 
 If you want to understand how the layering works further, check the comments within the configuration file.
+
+Program is licensed under [CC 3.0 Attribution](https://creativecommons.org/licenses/by/3.0/) but please do not use the images and replace them with your own. Thank you!
