@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "webaudio-oscilloscope": "^3.2.1"
+  }
+}

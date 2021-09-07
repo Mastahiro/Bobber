@@ -1,0 +1,35 @@
+body {
+      margin: 0;
+      background-color: #00B140; /*Color of the background to chromakey out*/
+      color: #dddddd;
+      text-align: center;
+    }
+    button {
+      margin-top: 100px;
+      padding: 1em 2em;
+      font-size: 1.5em;
+    }
+	
+	#picture {
+		position:absolute;
+		right:0%;
+		bottom:0%;
+		display:inline-flex;
+	}
+	
+	#head{
+		display:inline-flex;
+	}
+	
+	.overlay {
+		position:absolute;
+		right: 0px;
+		bottom: 0px;
+	}
+	
+	#soundon{
+		margin-top:auto;
+	}
+	
+	.images {
+	}

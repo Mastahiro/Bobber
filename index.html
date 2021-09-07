@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bobber</title>
+	<script src="./webaudio-bobber/tools/mover_tools.js"></script>
+	<script src="./webaudio-bobber/index.js"></script>
+	<script src="config.js"></script>
+	<script src="switcher.js"></script>
+</head>
+<body onkeydown="keychecker(event)">
+    <button class="btn start">Start</button>
+	<div id ="picture">
+		<img src="./images/3strokes.png" class="images" id="soundon">
+		<div id="head">
+			<img src="imageswitcher/0.png" class="images" id="portrait" onerror="load0Image()">
+			<img src="imageswitcher/0.png" class="overlay" id="portraitBottomLayer" style="display: none;">
+			<img src="imageswitcher/0.png" class="overlay" id="portraitMidlayer" style="display: none;">
+			<img src="imageswitcher/0.png" class="overlay" id="portraitOverlay" style="display: none;">
+		</div>
+	</div>
+    <script src="app.js"></script>
+</body>
+</html>
