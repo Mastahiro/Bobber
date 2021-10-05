@@ -7,7 +7,6 @@ Just extract and open index.html in a browser.
 There is no installation required or external apps, and should run on Mozilla/Chrome, although it was only tested with Chrome.
 
 
-
 ## Configuration
 
 The program runs on two different modes, changed with `USEDICTIONARY` being set to true or false within the `config.js`.
@@ -32,5 +31,11 @@ const DICTIONARY = {
 Dictionary mode also allows the use of overlays over the image, as set by the other variables in the same file.
 
 If you want to understand how the layering works further, check the comments within the configuration file.
+
+## (Optional) Additional notes on filehosting
+
+Although not provided, it is possible to provide the `index.html` file on localhost instead, allowing for direct access, which eliminates the need for microphone use confirmation by pressing the `Start` button. In this case, comment out the `app.js` code to run directly and remove the start button and everything should work smoothly, as long as the file is being provided remotely.
+
+##License
 
 Program is licensed under [CC 3.0 Attribution](https://creativecommons.org/licenses/by/3.0/) but please do not use the images and replace them with your own. Thank you!
