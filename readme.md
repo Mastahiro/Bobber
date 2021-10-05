@@ -32,10 +32,10 @@ Dictionary mode also allows the use of overlays over the image, as set by the ot
 
 If you want to understand how the layering works further, check the comments within the configuration file.
 
-## (Optional) Additional notes on filehosting
+## (Optional) Additional notes on file hosting
 
-Although not provided, it is possible to provide the `index.html` file on localhost instead, allowing for direct access, which eliminates the need for microphone use confirmation by pressing the `Start` button. In this case, comment out the `app.js` code to run directly and remove the start button and everything should work smoothly, as long as the file is being provided remotely.
+Although not provided, it is possible to provide the `index.html` file on localhost instead, by your favorite means (node, ISS, etc), allowing for direct access, which eliminates the need for microphone use confirmation by pressing the `Start` button. In this case, comment out the `app.js` code to run directly and remove the start button and everything should work smoothly, as long as the file is being provided remotely.
 
-##License
+## License
 
 Program is licensed under [CC 3.0 Attribution](https://creativecommons.org/licenses/by/3.0/) but please do not use the images and replace them with your own. Thank you!
